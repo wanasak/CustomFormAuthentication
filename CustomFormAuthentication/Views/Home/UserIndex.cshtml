@@ -1,0 +1,7 @@
+﻿@{
+    ViewBag.Title = "UserIndex";
+}
+
+<h2>UserIndex</h2>
+
+<dvi>Welcome @(Request.IsAuthenticated ? HttpContext.Current.User.Identity.Name : "") (User)</dvi>
